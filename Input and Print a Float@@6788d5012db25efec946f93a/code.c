@@ -1,7 +1,10 @@
 #include <stdio.h>
-#define PI 3.14  
 
 int main() {
-    printf("You entered: %f\n", PI);  
+    float number;  
+    printf("Enter a floating-point number: ");
+    scanf("%f", &number);  
+    printf("You entered: %f\n", number);  
     return 0;
 }
+
