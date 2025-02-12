@@ -1,6 +1,7 @@
 #include <stdio.h>
-#define PI 3.14
+#define PI 3.14  
+
 int main() {
-    printf("You entered : %.2f\n", PI);
+    printf("You entered: %f\n", PI);  
     return 0;
 }
